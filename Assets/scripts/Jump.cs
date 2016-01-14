@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//fix jump shit
 public class Jump : MonoBehaviour {
 	public float jumpSpeed = 0f;
 	private float jumpStrength = 0f;
@@ -33,7 +33,7 @@ public class Jump : MonoBehaviour {
 
 		}
 
-		if (rbody.velocity.y < 0.3f && rbody.velocity.y > 0f) {
+		if (rbody.velocity.y < 0.5f && rbody.velocity.y >= 0f) {
 			jumping = false;
 		}
 	}
