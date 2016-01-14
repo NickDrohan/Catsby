@@ -77,8 +77,11 @@
 -define:UNITY_EDITOR_WIN
 Assets/scripts/CameraTween.cs
 Assets/scripts/Jump.cs
+Assets/scripts/bgscroller.cs
 Assets/scripts/dontDestroy.cs
+Assets/scripts/instantiation.cs
 Assets/scripts/movement.cs
+Assets/scripts/objMovement.cs
 Assets/scripts/sceneTransition.cs
 Assets/scripts/sceneTransition2.cs
 -r:D:\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll

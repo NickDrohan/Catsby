@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\FinalProjectAttempt\Assets\scripts\ObjectInteractions.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\bgscroller.cs">
     <Files>
-      <File FileName="..\FinalProjectAttempt\Assets\scripts\ObjectInteractions.cs" Line="1" Column="1" />
+      <File FileName="..\WEEK10\Assets\scrippts\forestGenerator.cs" Line="10" Column="27" />
+      <File FileName="Assets\scripts\bgscroller.cs" Line="7" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
