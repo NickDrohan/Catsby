@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//fix jump shit
 public class Jump : MonoBehaviour {
 	public float jumpSpeed = 0f;
 	private float jumpStrength = 0f;
@@ -16,20 +16,27 @@ public class Jump : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log (rbody.velocity); 
 		if (Input.GetKey (KeyCode.Space) && !jumping) {
-			jumpStrength += (jumpSpeed - jumpStrength)*0.2f;
+			jumpStrength += (jumpSpeed - jumpStrength) * 0.2f;
 		
 		}
 		if (Input.GetKeyUp (KeyCode.Space) && !jumping) {
-
-			rbody.velocity = (new Vector3( 0f, jumpStrength * Time.timeScale, 0f));
-			jumpStrength=0f;
-			jumping=true;
-			Debug.Log (jumpStrength); 
+			float modJumpStrength = jumpStrength / Time.timeScale; 
+			if (modJumpStrength > 15) {
+				modJumpStrength = 15; 
+			}
+			rbody.velocity = (new Vector3 (0f, modJumpStrength, 0f));
+			jumpStrength = 0f;
+			jumping = true;
+			//Debug.Log (jumpStrength); 
 
 		}
-		if (rbody.velocity.y < 0.5) {
-			jumping = false;
+	}
+	void OnCollisionEnter (Collision collide){
+		if (collide.gameObject.tag == "floor") {
+			jumping = false; 
 		}
+		
 	}
 }
