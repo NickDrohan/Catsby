@@ -5,8 +5,6 @@
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll"
@@ -83,8 +81,19 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
+"Assets/UITween/Prefabs/Click Effect Pref/ClickedWaveAnimation.cs"
+Assets/UITween/ScenesExamplesScripts/ActivateOnEnable.cs
+Assets/UITween/ScenesExamplesScripts/CreateAnimImage.cs
+Assets/UITween/ScenesExamplesScripts/FollowClick.cs
+Assets/UITween/Scripts/EasyTween.cs
+Assets/UITween/Scripts/ReferencedFrom.cs
+Assets/UITween/Scripts/UITween.cs
+Assets/colors/NewBehaviourScript.cs
 Assets/scripts/CameraTween.cs
 Assets/scripts/Jump.cs
 Assets/scripts/movement.cs
+Assets/scripts/sceneTransition.cs
+Assets/scripts/sceneTransition2.cs
+Assets/scripts/timetest.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
