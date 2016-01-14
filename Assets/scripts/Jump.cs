@@ -16,19 +16,24 @@ public class Jump : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log (rbody.velocity); 
 		if (Input.GetKey (KeyCode.Space) && !jumping) {
 			jumpStrength += (jumpSpeed - jumpStrength)*0.2f;
 		
 		}
 		if (Input.GetKeyUp (KeyCode.Space) && !jumping) {
-
-			rbody.velocity = (new Vector3( 0f, jumpStrength * Time.timeScale, 0f));
+			float modJumpStrength = jumpStrength / Time.timeScale; 
+			if (modJumpStrength >15){
+				modJumpStrength = 15; 
+			}
+			rbody.velocity = (new Vector3( 0f, modJumpStrength, 0f));
 			jumpStrength=0f;
 			jumping=true;
-			Debug.Log (jumpStrength); 
+			//Debug.Log (jumpStrength); 
 
 		}
-		if (rbody.velocity.y < 0.5) {
+
+		if (rbody.velocity.y < 0.3f && rbody.velocity.y > 0f) {
 			jumping = false;
 		}
 	}
