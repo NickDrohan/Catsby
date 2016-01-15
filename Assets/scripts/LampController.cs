@@ -12,7 +12,7 @@ public class LampController : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void FixedUpdate () {
-		rbody.velocity = (new Vector3 (-5f, 0f, 0f));
+		rbody.velocity = (new Vector3 (-5f, 0f,                         0f));
 		if (rbody.position.x < -20)
 			transform.position = startPosition + Vector3.right * 10;
 	}
