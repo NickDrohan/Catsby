@@ -1,18 +1,8 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\LampController.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\RightCurtainController.cs">
     <Files>
-      <File FileName="Assets\scripts\HealthController.cs" Line="17" Column="36" />
-      <File FileName="Assets\scripts\timetest.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\sceneTransition.cs" Line="12" Column="1" />
-      <File FileName="Assets\scripts\movement.cs" Line="19" Column="6" />
-      <File FileName="Assets\scripts\Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\CameraTween.cs" Line="13" Column="96" />
-      <File FileName="Assets\scripts\sceneTransition2.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\LampController.cs" Line="15" Column="48" />
-      <File FileName="Assets\scripts\bgscroller.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\LeftCurtainController.cs" Line="18" Column="3" />
-      <File FileName="Assets\scripts\RightCurtainController.cs" Line="14" Column="2" />
+      <File FileName="Assets\scripts\RightCurtainController.cs" Line="24" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
