@@ -52,6 +52,8 @@
      <Compile Include="Assets\UITween\Scripts\EasyTween.cs" />
      <Compile Include="Assets\UITween\Scripts\ReferencedFrom.cs" />
      <Compile Include="Assets\UITween\Scripts\UITween.cs" />
+     <Compile Include="Assets\scripts\AI.cs" />
+     <Compile Include="Assets\scripts\BackgroundScripts\BlackLayerController.cs" />
      <Compile Include="Assets\scripts\CameraTween.cs" />
      <Compile Include="Assets\scripts\HealthController.cs" />
      <Compile Include="Assets\scripts\Jump.cs" />
@@ -59,13 +61,14 @@
      <Compile Include="Assets\scripts\LeftCurtainController.cs" />
      <Compile Include="Assets\scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\scripts\NewGameController.cs" />
-     <Compile Include="Assets\scripts\OpacityTween.cs" />
      <Compile Include="Assets\scripts\RightCurtainController.cs" />
      <Compile Include="Assets\scripts\bgscroller.cs" />
+     <Compile Include="Assets\scripts\detectHit.cs" />
      <Compile Include="Assets\scripts\dontDestroy.cs" />
-     <Compile Include="Assets\scripts\instantiation.cs" />
+     <Compile Include="Assets\scripts\hitObstacle.cs" />
      <Compile Include="Assets\scripts\movement.cs" />
      <Compile Include="Assets\scripts\objMovement.cs" />
+     <Compile Include="Assets\scripts\restart.cs" />
      <Compile Include="Assets\scripts\sceneTransition.cs" />
      <Compile Include="Assets\scripts\sceneTransition2.cs" />
      <Compile Include="Assets\scripts\timer.cs" />
