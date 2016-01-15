@@ -28,6 +28,18 @@ public class hitObstacle : MonoBehaviour {
 			}
 			else {
 				//game over 
+				Application.LoadLevel("gameOver"); 
+			}
+		}
+		if (collide.gameObject.tag == "health") {
+			GameObject.Destroy (collide.gameObject);
+			count ++; 
+			if (count == 2){
+				xText.text = "X X"; 
+
+			}
+			else if (count == 3){
+				xText.text = "X X X"; 
 			}
 		}
 

@@ -29,8 +29,12 @@ public class Jump : MonoBehaviour {
 			rbody.velocity = (new Vector3 (0f, modJumpStrength, 0f));
 			jumpStrength = 0f;
 			jumping = true;
-			//Debug.Log (jumpStrength); 
+			//Debug.Log (jumpStrength);
 
+
+		}
+		if (transform.position.x <= -14.63f){
+			Application.LoadLevel ("gameOver"); 
 		}
 	}
 	void OnCollisionEnter (Collision collide){
@@ -39,4 +43,6 @@ public class Jump : MonoBehaviour {
 		}
 		
 	}
+
+	
 }

@@ -18,5 +18,9 @@ public class timer : MonoBehaviour {
 		timez.text = (myTimer.ToString ());
 		catClock.fillAmount = myTimer/originalTime; 
 		myTimer -= Time.deltaTime; 
+		if (myTimer <= 0) {
+			//end game
+			Application.LoadLevel ("gameOver"); 
+		}
 	}
 }
