@@ -10,7 +10,7 @@ public class timer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		myTimer = 12f; 
+		myTimer = 20f; 
 		originalTime = myTimer; 
 	}
 	

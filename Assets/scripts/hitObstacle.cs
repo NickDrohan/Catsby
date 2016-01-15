@@ -26,8 +26,9 @@ public class hitObstacle : MonoBehaviour {
 			else if (count == 1){
 				xText.text = "X"; 
 			}
-			else {
+			else if (count == 0) {
 				//game over 
+				Debug.Log (count); 
 				Application.LoadLevel("gameOver"); 
 			}
 		}
