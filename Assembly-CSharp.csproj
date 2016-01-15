@@ -58,6 +58,7 @@
      <Compile Include="Assets\scripts\Jump.cs" />
      <Compile Include="Assets\scripts\LampController.cs" />
      <Compile Include="Assets\scripts\bgscroller.cs" />
+     <Compile Include="Assets\scripts\detectHit.cs" />
      <Compile Include="Assets\scripts\dontDestroy.cs" />
      <Compile Include="Assets\scripts\hitObstacle.cs" />
      <Compile Include="Assets\scripts\movement.cs" />

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class HealthController : MonoBehaviour {
+	Collision collide; 
 
 
 	void Start(){

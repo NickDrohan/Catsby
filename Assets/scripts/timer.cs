@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI; 
 public class timer : MonoBehaviour {
@@ -6,6 +6,7 @@ public class timer : MonoBehaviour {
 	float myTimer; 
 	public Image catClock;
 	float originalTime;
+
 
 	// Use this for initialization
 	void Start () {
