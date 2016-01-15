@@ -3,7 +3,9 @@ using System.Collections;
 
 public class LeftCurtainController : MonoBehaviour {
 
-	public Transform curtains;
+	public Transform leftCurtain; 
+	public float leftLimit; 
+	public static bool leftOpen = false; 
 	float accelerator=.01f;
 	bool clicked=false;
 
@@ -21,9 +23,15 @@ public class LeftCurtainController : MonoBehaviour {
 	void Update () {
 
 		if (clicked) {
-			curtains.position-=new Vector3(accelerator, 0f, 0f);			
-			accelerator+= .01f;
+			leftCurtain.position -= new Vector3 (accelerator, 0f, 0f);			
+			accelerator += .01f;
+			Debug.Log ("Left should move"); 
 		}
+		if (leftCurtain.position.x <= leftLimit) {
+			leftOpen = true; 
+			Debug.Log (leftOpen); 
+		}
+	
 
 	}
 }
