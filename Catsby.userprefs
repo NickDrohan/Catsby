@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\hitObstacle.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\scrollText.cs">
     <Files>
-      <File FileName="Assets\scripts\Jump.cs" Line="46" Column="1" />
+      <File FileName="Assets\scripts\scrollText.cs" Line="11" Column="44" />
+      <File FileName="Assets\scripts\Jump.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\detectHit.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\HealthController.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\timer.cs" Line="13" Column="15" />
-      <File FileName="Assets\scripts\hitObstacle.cs" Line="24" Column="24" />
+      <File FileName="Assets\scripts\timer.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\hitObstacle.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI; 
 public class scrollText : MonoBehaviour {
-	string myString = "Fuck everything"; 
+	string myString = "Itty bitty kitty"; 
 	string stringAnimate = "";
 	public Text textBox; 
 	IEnumerator AnimateText(){
