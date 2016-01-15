@@ -10,6 +10,6 @@ public class objMovement : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void FixedUpdate () {
-		rbody.velocity = (new Vector3 (-20f, 0f, 0f)); 
+		rbody.velocity = (new Vector3 (-10f, 0f, 0f)); 
 	}
 }
